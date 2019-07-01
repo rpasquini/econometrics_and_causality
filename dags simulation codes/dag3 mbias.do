@@ -3,7 +3,7 @@ rpasquini@austral.edu.ar
 rpasquini@utdt.edu
 */
 
-/* EXAMPLE 2.A: Confounder plus collider example
+/* DAG 3: M BIAS
 
 X<-A->B
 B<-C->Y
