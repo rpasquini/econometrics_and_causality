@@ -46,8 +46,10 @@ twoway (scatter Y X)
 
 regress Y X
 
-*Controlling for B opens a channel, net effect changes.
+*Controlling for B opens a channel, bias appears:
 regress Y X B
 
+*Closing the backdoor path back by including A as control
+regress Y X B A
 
 
