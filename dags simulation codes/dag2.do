@@ -21,7 +21,7 @@ range obs 1 1000 1000
 
 generate B=int((100+1)*runiform())
 
-generate X=int((100+1)*runiform())-2*B 
+generate X=int((100+1)*runiform()) 
 
 generate Y=int((100+1)*runiform())+3*B
 
